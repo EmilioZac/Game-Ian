@@ -26,7 +26,7 @@ void Update()
 {
     if (fireControllerScript != null)
     {
-        currentHealth = fireControllerScript.GetHealth();
+       //currentHealth = fireControllerScript.GetHealth();
         object1.SetActive(currentHealth == 1);
         object2.SetActive(currentHealth == 2);
         object3.SetActive(currentHealth == 3);

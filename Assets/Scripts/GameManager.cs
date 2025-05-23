@@ -47,7 +47,7 @@ public class GameManager : MonoBehaviour
         restartButton.gameObject.SetActive(false);
     }
 
-    
+    /*
     public void GameOver()
     {
         
@@ -60,7 +60,7 @@ public class GameManager : MonoBehaviour
             restartButton.gameObject.SetActive(true);
         }
     }
-    
+    */
     public void IncrementKillCount()
     {
         kill++; // Incrementa el contador de kills
